@@ -200,7 +200,7 @@ class _QueryWidgetState extends State<QueryWidget> {
         if (_subscription != null && _error != null)
           Text(_error!,
               style: TextStyle(
-                color: Theme.of(context).errorColor,
+                color: Theme.of(context).primaryColor,
               ))
       ],
     );
